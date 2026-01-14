@@ -104,7 +104,7 @@ function renderHero(profile) {
             
             <!-- Image Column -->
             <div class="order-1 md:order-2 flex justify-center md:justify-end">
-                <div class="w-[300px] h-[350px] md:w-[450px] md:h-[550px] relative rounded-2xl overflow-hidden shadow-2xl border border-primary/5 grayscale hover:grayscale-0 transition-all duration-700 ease-in-out">
+                <div class="w-[300px] h-[350px] md:w-[450px] md:h-[550px] relative rounded-2xl overflow-hidden shadow-2xl border border-primary/5 transition-all duration-700 ease-in-out">
                     <img src="${profile.image}" alt="${profile.name}" class="w-full h-full object-cover">
                 </div>
             </div>

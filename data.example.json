@@ -22,5 +22,28 @@
       "tags": ["Python", "PyTorch", "Topology", "CUDA"],
       "link": "#"
     }
-]
+  ],
+  "publications": [
+    {
+      "title": "Persistent Homology for Robust Graph Representation Learning",
+      "venue": "NeurIPS",
+      "year": "2024",
+      "link": "#"
+    }
+  ],
+  "misc": [
+    {
+      "category": "Awards",
+      "items": [
+        "Best Paper Award, NeurIPS Workshops 2024",
+        "NSF Graduate Research Fellowship"
+      ]
+    }
+
+
+  ],
+  "redirects": [
+    { "label": "CV / Resume", "url": "#resume" },
+    { "label": "Lab Website", "url": "#lab" }
+  ]
 }

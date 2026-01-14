@@ -1,0 +1,68 @@
+/* Custom Scrollbar */
+:root {
+    /* Enforce Dark Mode (Deep Black background, Light text) */
+    --c-base: 10 10 10;       /* #0a0a0a */
+    --c-surface: 23 23 23;    /* #171717 */
+    --c-primary: 244 244 245; /* #f4f4f5 */
+    --c-secondary: 161 161 170;/* #a1a1aa */
+    --c-accent: 204 85 0;     /* #cc5500 */
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cc5500;
+}
+
+/* Intersection Observer Animations */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(2rem); /* translate-y-8 */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Subtle Link Underline Animation */
+.link-underline {
+    position: relative;
+    text-decoration: none;
+}
+
+.link-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #cc5500;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Ensure smooth image loading */
+img {
+    transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+}

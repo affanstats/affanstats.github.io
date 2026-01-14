@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "name": "Affan Bin Nishat",
+    "title": "Data Scientist & Researcher",
+    "tagline": "Exploring the intersection of Topological Data Analysis and Deep Learning.",
+    "location": "Cambridge, MA",
+    "image": "assets/profile.png"
+  },
+  "socials": [
+    { "platform": "GitHub", "url": "https://github.com", "icon": "github" },
+    { "platform": "LinkedIn", "url": "https://linkedin.com", "icon": "linkedin" },
+    { "platform": "Scholar", "url": "https://google.com", "icon": "book-open" },
+    { "platform": "Email", "url": "mailto:hello@example.com", "icon": "mail" }
+  ],
+  "about": {
+    "title": "About",
+    "content": "I research robust geometric representations for unstructured data. My work focuses on scalable algorithms for persistent homology and their application to neural network interpretability. I am currently pursuing my research goals in data science."
+  },
+  "projects": [
+    {
+      "title": "TDA-Net",
+      "description": "A PyTorch library for integrating topological features into graph neural networks. Achieved state-of-the-art results on molecular property prediction benchmarks.",
+      "tags": ["Python", "PyTorch", "Topology", "CUDA"],
+      "link": "#"
+    },
+    {
+      "title": "Manifold-Vis",
+      "description": "Interactive visualization tool for high-dimensional manifold learning. Uses WebGL for real-time rendering of millions of data points.",
+      "tags": ["TypeScript", "WebGL", "D3.js"],
+      "link": "#"
+    },
+    {
+      "title": "Sparse-Attention",
+      "description": "Optimized implementation of sparse attention mechanisms for long-context Transformers, reducing memory footprint by 40%.",
+      "tags": ["Rust", "Python", "LLMs"],
+      "link": "#"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Persistent Homology for Robust Graph Representation Learning",
+      "venue": "NeurIPS",
+      "year": "2024",
+      "link": "#"
+    },
+    {
+      "title": "Geometric Deep Learning on Riemmanian Manifolds",
+      "venue": "ICLR (Oral)",
+      "year": "2023",
+      "link": "#"
+    },
+    {
+      "title": "A Survey of Topological Data Analysis in Computer Vision",
+      "venue": "IEEE TPAMI",
+      "year": "2022",
+      "link": "#"
+    }
+  ],
+  "misc": [
+    {
+      "category": "Awards",
+      "items": [
+        "Best Paper Award, NeurIPS Workshops 2024",
+        "NSF Graduate Research Fellowship"
+      ]
+    },
+    {
+      "category": "News",
+      "items": [
+        "2025-01: Invited talk at MIT CSAIL.",
+        "2024-11: Paper accepted to NeurIPS 2024."
+      ]
+    }
+  ],
+  "redirects": [
+    { "label": "CV / Resume", "url": "#resume" },
+    { "label": "Lab Website", "url": "#lab" }
+  ]
+}
